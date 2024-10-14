@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "dibscript": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\kayla\\source\\repos\\csharpscript\\test1.dib"
+    }
+  }
+}
