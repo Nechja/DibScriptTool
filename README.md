@@ -19,7 +19,3 @@ Dib Runner extracts C# code cells from a `.dib` (Dotnet Interactive Notebook) fi
 ## Usage
   ```bash
   dib-runner <path-to-your-file.dib>
-
-## Example
-  ```bash
-  dib-runner MyNotebook.dib
