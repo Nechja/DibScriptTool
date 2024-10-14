@@ -1,3 +1,4 @@
+![Build Status](https://github.com/Nechja/DibScriptTool/actions/workflows/nuget.yml/badge.svg)
 # Dib Runner
 
 A simple command-line tool to execute C# code cells from `.dib` files using `dotnet-script`.
