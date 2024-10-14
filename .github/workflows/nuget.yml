@@ -1,4 +1,4 @@
-# .github/workflows/publish-package.yml
+![Build Status](https://github.com/Nechja/DibScriptTool/actions/workflows/nuget.yml/badge.svg)
 name: Publish .NET Tool to NuGet
 
 on:
