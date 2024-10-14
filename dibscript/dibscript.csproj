@@ -4,12 +4,20 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+	<RootNamespace>DibRunner</RootNamespace>
+	<PackageId>DibRunner.Tool</PackageId>
+	<Version>0.5.0</Version>
+	<Authors>Kayla Graves</Authors>
+	<Company>Your Company</Company>
+	<Description>A tool to run .dib notebooks as if they were csx scripts</Description>
+	<PackAsTool>true</PackAsTool>
+	<ToolCommandName>dib-runner</ToolCommandName>
+	<PackageTags>dotnet-tool;dib;processor;polyglot</PackageTags>
+	<RepositoryUrl>https://github.com/Nechja/DibScriptTool</RepositoryUrl>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dotnet.Script.DependencyModel" Version="1.5.0" />
-    <PackageReference Include="Dotnet.Script.DependencyModel.NuGet" Version="1.5.0" />
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.11.0" />
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.11.0" />
     <PackageReference Include="Microsoft.CodeAnalysis.Scripting.Common" Version="4.11.0" />
